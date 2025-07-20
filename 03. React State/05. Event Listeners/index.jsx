@@ -9,6 +9,9 @@ function App() {
   /**
    * Challenge: add our new function to the button
    */
+  function handleclick(){
+  console.log("hello");
+  }
   
   return (
     <main className="container">
@@ -16,7 +19,7 @@ function App() {
         src="https://picsum.photos/640/360"
         alt="Placeholder image from Picsum"
       />
-      <button onClick={}>Click me</button>
+      <button onClick={handleclick}>Click me</button>
     </main>
   )
 }
